@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Bezier_Curve/Bezier_Curve.vcxproj" Id="e402e1f2-0174-440c-b1df-e228da389b3c" />
+</Solution>
