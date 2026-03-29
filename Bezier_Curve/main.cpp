@@ -1,11 +1,11 @@
 #include "De_Casteljau.h"
-#include<iostream>
-#include<string>
-#include<fstream>
+#include <iostream>
+#include <string>
+#include <fstream>
 
 using namespace std;
 
-void main()
+int main()
 {
 	De_Casteljau Bezier;
 
@@ -15,4 +15,6 @@ void main()
 	Bezier.calculate();
 	Bezier.solveNormalization();
 	Bezier.saveFile();
+
+	return 0;
 }
